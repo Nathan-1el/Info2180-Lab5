@@ -1,1 +1,61 @@
 /* Add your own styles */
+h2{
+    font-size: 13px;
+}
+
+header{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 30px 50px;
+    background-color: #333;
+    
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+body{
+    background-color:aliceblue;
+}
+#controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+  }
+  
+  /* Style for the search bar input */
+  #country {
+    width: 300px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Add focus effect for the input */
+  #country:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Style for the search button */
+  #lookup {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect for the button */
+  #lookup:hover {
+    background-color: #48b300;
+}
