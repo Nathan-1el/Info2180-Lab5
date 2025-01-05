@@ -1,61 +1,33 @@
-/* Add your own styles */
-h2{
-    font-size: 13px;
+*{
+  margin:0%;
+  padding:0%;
 }
 
 header{
-    display: flex;
-    font-family: 'Times New Roman', Times, serif;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    padding: 30px 50px;
-    background-color: #333;
-    
-    color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding-top: 1%;
+  background-color: antiquewhite;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column; 
+  text-align: center;
 }
-body{
-    background-color:aliceblue;
+
+div{
+  margin: 20px;
+
 }
-#controls {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin: 20px;
-  }
-  
-  /* Style for the search bar input */
-  #country {
-    width: 300px;
-    padding: 10px 15px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    font-size: 16px;
-    transition: all 0.3s ease;
-  }
-  
-  /* Add focus effect for the input */
-  #country:focus {
-    outline: none;
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-  }
-  
-  /* Style for the search button */
-  #lookup {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    background-color: #007bff;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  /* Hover effect for the button */
-  #lookup:hover {
-    background-color: #48b300;
+
+
+#country{
+  width: 500px;
+  height: 30px;
 }
+#lookup{
+  width: 100px;
+  height: 30px;
+}
+
+body { 
+  font-family: 'Roboto', sans-serif;
+ }
