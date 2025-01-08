@@ -2,32 +2,80 @@
   margin:0%;
   padding:0%;
 }
+/* { margin: 0; padding: 0; box-sizing:border-box; }*/
 
 header{
   padding-top: 1%;
-  background-color: antiquewhite;
+  background-color: lightskyblue;
   display: flex; 
   justify-content: center; 
   align-items: center;
   flex-direction: column; 
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 div{
-  margin: 20px;
+  margin: 30px;
 
 }
 
 
 #country{
   width: 500px;
-  height: 30px;
+  height: 35px;
 }
-#lookup{
-  width: 100px;
-  height: 30px;
+button{
+  width: 110px;
+  height: 35px;
+  padding: 3px;
+  background-color: lightgreen; 
 }
 
+button:hover{
+  background-color: #45a049;
+}
+
+#controls{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  justify-content: center; 
+}
+
+
+
+#buttons {
+  display: flex;
+  flex-direction: row; 
+  gap: 10px;
+  align-items: center;    
+  justify-content: center; 
+}
+
+#controls button {
+  margin-top: 5px; /* Add a bit of spacing above the button (optional) */
+}
 body { 
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
  }
+
+ #result {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  width:100%;
+ }
+
+table {
+  border-collapse: collapse; 
+   margin: 0 auto;
+   width: 60%;
+   border: 1px solid black;
+   text-align: center;
+
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
